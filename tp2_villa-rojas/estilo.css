@@ -1,0 +1,120 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+:root {
+    font-family: sans-serif;
+}
+@media (min-width: 576px) {
+    body{
+        background: url(Img/fondo-mobile.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+    }
+   
+    #galeria{
+        width: 20%;
+    }
+    #defenders{
+        font-size: 2rem;
+    }
+    
+}
+@media (min-width: 768px) {
+    body{
+        background: url(Img/fondo-tablet.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+    }
+}
+@media (min-width: 1170px) {
+}
+body{
+    text-align: center;
+    background: url(Img/fondo.jpg); 
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Hind', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.title h1{
+text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+    background-color: rgb(175, 28, 28);
+    color: white;
+    font-family:impact;
+}
+
+.container{
+    background-color: #518C23;
+    color: white;
+    width: auto;
+    text-align: center;
+}
+.container h1{
+    text-align: center;
+    color: #d8b339;
+}
+main{
+    display: block;
+    float:center;
+}
+#Pastas{
+    text-align: center;
+    font-family: impact;
+    color: white;
+    font-size: 4rem;
+    background-color: rgb(116, 116, 116);
+    padding: 1rem;
+    margin-top: 2rem;
+}
+#Vino{
+       text-align: center;
+    font-family: impact;
+    color: white;
+    font-size: 4rem;
+    background-color: rgb(116, 116, 116);
+    padding: 1rem;
+    margin-top: 2rem;
+
+}
+#galeria{
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+#video{
+    margin-top: 50px;
+}
+#formulario{
+    color: white;
+    background-color: #518C23;
+    padding: 2rem;
+    width: 500px;
+    height: 500px;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(175, 28, 28);
+    padding: 1rem;
+    margin-top: 1rem;
+}
